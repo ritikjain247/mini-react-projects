@@ -3,18 +3,19 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  justify-content: center;
+  width:100% ;
 }
 
 .bars {
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
+  row-gap: 16px;
+  padding: 1em;
 }
 
 .bar {
   background-color: #ccc;
-  height: 8px;
+  height: 16px;
 }
 
 .bar-contents {
