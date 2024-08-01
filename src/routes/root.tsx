@@ -10,6 +10,7 @@ function Root() {
           <Link to={'temparature-converter'}>Temparature Converter</Link>
           <Link to={'progress-bars-animation'}>Progress Bars Animation</Link>
           <Link to={'usa-heatmap'}>US Heatmap</Link>
+          <Link to={'mortage-calculator'}>Mortage Calculator</Link>
         </div>
       </div>
       <div className='outlet'>

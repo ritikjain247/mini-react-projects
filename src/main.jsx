@@ -10,6 +10,7 @@ import ErrorPage from './error-page';
 import USHeatmap from './components/USAHeatmap';
 import ProgressBars from './components/ProgressBar';
 import TempConverter from './components/TempConverter';
+import Calculator from './components/MortgageCalculator';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         path: "temparature-converter",
         element: <TempConverter />,
       },
+      {
+        path: "mortage-calculator",
+        element: <Calculator />,
+      },
     ],
   },
 ]);
@@ -38,3 +43,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
+
+
