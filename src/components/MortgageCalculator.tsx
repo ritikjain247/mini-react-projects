@@ -1,4 +1,3 @@
-import React from 'react';
 import '../assets/mortgage-calculator.css';
 import { useState } from 'react';
 

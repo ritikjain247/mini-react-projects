@@ -1,7 +1,6 @@
 // import { USAMap } from 'react-usa-map';
 
 // import zIndex from '@mui/material/styles/zIndex';
-import React from 'react';
 
 interface HeatmapProps {
   onClick?: (event: React.MouseEvent<HTMLElement>) => void;
